@@ -4,7 +4,7 @@ import { ColorModeButton } from "./ui/color-mode";
 export default function Navbar() {
     return (
         <>
-            <Container maxW={"900px"}>
+            <Container maxW={"850px"}>
                 <Box bg={{base:'bg.muted', _dark:'#144272'}} px={4} my={4} borderRadius={5}>
                     <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
                         {/* LEFT SIDE */}
